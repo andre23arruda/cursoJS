@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cronômetro</title>
+        <link rel="stylesheet" href="estilo1.css">
+        <link rel="shortcut icon" href='icone1.ico' type="image/x-icon" />
+    </head>
+    <body onload="tempo(); data()">
+        <header>
+            <img id="img_cron" src="crono.png" alt="Cronometro">
+            <h1>Cronômetro</h1>
+            <h2 id="id_cron">0:00:00:000</h2> 
+        </header>
+        <div id="botoes1">
+            <a class="b" href="#0" onclick="comecar()">Começar</a>
+            <a class="b" id="botao_parar" href="#0" onclick="parar()">Parar</a>
+            <a class="b" href="#0" onclick="recomecar()">Recomeçar</a>
+            <a class="b" href="#0" onclick="resetar()">Resetar</a>        
+        </div>
+            <section id="id_tempo">
+            <div id="div_tempo">
+            </div>
+            <div id="div_data">
+            </div>
+        </section>
+        <footer>
+            <p>&copy; XXT quem é sabe</p>
+            <p>&trade;Desenvolvido por André Arruda</p>
+            <a href="index.html">Recarregar</a>
+        </footer>
+        <script src="script2.js"></script>
+    </body>
+</html>

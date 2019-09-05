@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sua nacionalidade</title>
+    <style>
+        h1{
+            margin-bottom: 20px;
+        }
+        body{
+            background-color: white;
+        }
+        #txtvel{
+            background-color:white;
+            width: 40px;
+        }
+        #b2{
+            color: purple ;
+            margin-top: 5px
+        }
+        #div1{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Qual a sua nacionalidade?</h1>
+    <p>Em qual país você nasceu? 
+        <input type="text" name="txtpais" id="txtpais"> 
+        <input type="button" id="b1" value="Verificar" onclick="verPais()">
+        <input type="button" id="b2" value="Resetar" onclick="reset()">
+    </p> 
+    <div id='div1'></div>
+    <script>
+        var pais = window.document.querySelector("input#txtpais")
+        var d = window.document.querySelector("div#div1")
+        function verPais(){
+            if(pais.value == "Brasil"){
+                d.innerHTML = '<p>Você nasceu no <strong>Brasil</strong></p>'
+                d.innerHTML += '<p>Você é <strong>Brasileiro</strong><p>'
+            }
+            else{
+                d.innerHTML = `<p>Você nasceu em <strong>${pais.value}</strong></p>`
+                d.innerHTML += '<p>Você é <strong>Estrangeiro</strong><p>'
+            }
+            d.innerHTML += '<p>Obrigado por usar nosso sistema!</p>'
+        }
+
+        function reset(){
+            txtpais.value = null
+            d.style.background = 'white'
+            window.document.querySelector("div#div1").innerHTML = ""
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+h1{
+    color:blue;
+    font-family: verdana;
+    font-size: 300%;
+}
+body{
+    background-color: rgb(194, 197, 185)
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+.h2_class{
+    color:green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+    border: 5px solid gray;
+    padding: 1%;
+    margin: 1%
+}
+#img1{
+    width: 200px;
+    height: 200px;
+}
+#txt_imagem{
+    float: left;
+    width:100px;
+    height:100px;
+}
+.tabela_borda, .tabela_titulos, .tabela_linhas{
+    width: 40%;
+    border-width: 1px;
+    border-style: solid;
+    border:1px solid black;
+    border-collapse: collapse; /*Juntando as bordas externas e internas*/
+    text-align: center;
+}
+.tabela_borda2{
+    width: 60%;
+    border:10px solid rgb(160, 60, 60);
+    border-spacing: 20px
+}
+.tabela_linhas{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.tabela_titulos{
+    padding: 10px
+}
+#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+#t01 th {
+    background-color: black;
+    color: white;
+}
+
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+.link_nav{
+    float: left;
+}
+.link_nav .a_nav{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.a_nav:hover {
+background-color: #111111;
+}
+#div1{
+    background-color:black;
+    color:white;
+    width: 85%;
+    padding:2% 2%;
+    margin: 0% 5%;
+    border-radius: 10cm;
+    font: normal 8pt Arial;
+    text-align: center
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  #h1_cidades {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: white;
+    margin: 0%
+  }
+
+  #nav_cidades {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+  }
+
+  #nav_cidades #list_cidades {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #article1 {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+  }
+
+  #sec_cidades:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #footer1 {
+    background-color: #777;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  #iframe1{
+      width: 100%;
+      height: 10%;
+  }
+
+
+  

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body{
+            background-color: rgb(113, 113, 167);
+            color:cornsilk; /* Comentário em CSS */
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p> <!-- Comentário em HTML -->
+    <script>
+        var n1 = prompt('Digite um número?'); // Comentário em JS
+        var n2 = prompt('Digite outro número?'); // Comentário em JS
+        var soma = Number.parseInt(n1) + Number.parseInt(n2);
+        soma = Number(n1) + Number(n2); // JS decide se é int ou float 
+        var somaString = String(soma); // ou toString(soma)
+        alert(`A soma entre ${n1} e ${n2} é ${soma}`); // Para usar template string é necessário usar crase
+        //alert('A soma dos números é ' + soma);
+        // + pode ser usado para adição ou concatenação
+
+    </script>
+</body>
+</html>

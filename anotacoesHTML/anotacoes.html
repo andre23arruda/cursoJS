@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anotacoes</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body> <!--Heading-->
+    <hr> <!--Linha-->
+    <h1>Títulos</h1>
+    <h2 class="h2_class">This is heading 2 com css</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+    <hr>
+
+    <!--Paragráfo-->
+    <h2>Parágrafos</h2>
+    <p>My first paragraph.</p>
+    <p>This is another paragraph.</p>
+    <hr> <!--Linha-->
+
+    <!--Links-->
+    <h2>HTML Links</h2>
+    <a id="html_link" href="https://www.w3schools.com">This is a link</a>
+    <hr> <!--Linha-->
+
+    <!--Imagem-->
+    <h2>HTML Images</h2>
+    <img id="img1" src="cron1.gif" alt="cronometro">
+    <hr> <!--Linha-->
+
+    <!--Botão-->
+    <h2>HTML Botão</h2>
+    <button>Click me</button>
+    <hr> <!--Linha-->
+    
+    <!--Lista sem ordem-->
+    <h2>Lista sem ordem</h2>
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul> 
+    <hr> <!--Linha-->
+
+    <!--Lista em ordem-->
+    <h2>Lista em ordem</h2>
+    <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol> 
+    <hr> <!--Linha-->
+
+    <!--Controlar espaços e linhas-->
+    <h2>Controlando espaços e linhas</h2>
+    <pre>
+       My Bonnie lies over the ocean.
+    
+       My Bonnie lies over the sea.
+    
+       My Bonnie lies over the ocean.
+       
+       Oh, bring back my Bonnie to me.
+    </pre>   
+    <hr> <!--Linha--> 
+
+    <!--Imagem com Link-->
+    <h2>Imagem com Links</h2>
+    <a href="https://www.w3schools.com"><img src="crono.png" alt=""></a>
+    <hr> <!--Linha-->
+
+    <!--Voltar para uma parte do site-->
+    <h2>Voltar para uma parte do site</h2>
+    <p><a href="#html_link">Voltar para HTML Link</a></p>
+    <hr> <!--Linha-->
+
+    <!--Link para email-->
+    <h2>Link para enviar email</h2>
+    <p>
+        This is an email link:
+        <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">
+        Send Mail</a>
+    </p>
+    <p>The link will only work if you have email installed.</p>
+    <p>(Spaces between words should be replaced by %20 to ensure that the browser will display the text properly)</p>
+    <hr> <!--Linha-->
+
+    <!--Link para email bolado-->
+    <h2>Link para enviar email bolado com cc, cco, título e parte da mensagem</h2>
+    <p>
+        This is another mailto link:
+        <a href="mailto:someone@example.com
+                ?cc=someoneelse@example.com
+                &bcc=andsomeoneelse@example.com
+                &subject=Summer%20Party
+                &body=You%20are%20invited%20to%20a%20big%20summer%20party!" target="_top">Send mail!</a>
+    </p>
+    <p>The link will only work if you have email installed.</p>
+    <p>(Spaces between words should be replaced by %20 to ensure that the browser will display the text properly)</p>
+    <hr> <!--Linha-->
+
+    <!--Texto e imagem-->
+    <h2>Texto e imagem</h2>
+    <p>
+        <img id="txt_imagem" src="cron1.gif" alt="crono gif">
+        A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+    </p>
+    <br><br><br>
+    <hr> <!--Linha-->
+
+    <!--HTML Tabelas-->
+    <h2>HTML Tables</h2>
+
+    <p>HTML tables start with a <strong>table</strong> tag.</p>
+    <p>Table rows start with a <strong>tr</strong> tag.</p>
+    <p>Table data start with a <strong>td</strong> tag.</p>
+    
+    <hr>
+    <h3>1 Coluna:</h3>
+    <table>
+      <tr>
+        <td>elemento1</td>
+      </tr>
+    </table>
+    
+    <hr>
+    <h3>1 Linha e 3 colunas:</h3>
+    <table>
+      <tr>
+        <td>elemento1</td>
+        <td>elemento2</td>
+        <td>elemento3</td>
+      </tr>
+    </table>
+    
+    <hr>
+    <h3>3 linhas e 3 colunas</h3>
+    <table>
+      <tr>
+        <td>100</td>
+        <td>200</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <td>400</td>
+        <td>500</td>
+        <td>600</td>
+      </tr>
+      <tr>
+        <td>700</td>
+        <td>800</td>
+        <td>900</td>
+      </tr>
+    </table>
+    <hr>
+
+    <h2>Tabela com borda com titulos na horizontal</h2>
+    <table class="tabela_borda">
+        <caption>Título da tabela</caption>
+        <tr>
+            <th class="tabela_titulos">Firstname</th>
+            <th class="tabela_titulos">Lastname</th> 
+            <th class="tabela_titulos">Age</th>
+        </tr>
+        <tr>
+            <td class="tabela_linhas">Jill</td>
+            <td class="tabela_linhas">Smith</td>
+            <td class="tabela_linhas">50</td>
+        </tr>
+        <tr>
+            <td class="tabela_linhas">Eve</td>
+            <td class="tabela_linhas">Jackson</td>
+            <td class="tabela_linhas">94</td>
+        </tr>
+        <tr>
+            <td class="tabela_linhas">John</td>
+            <td class="tabela_linhas">Doe</td>
+            <td class="tabela_linhas">80</td>
+        </tr>
+    </table>
+
+    <hr>
+    <h2>Tabela com borda com titulos na vertical</h2>
+    <table class="tabela_borda2">
+      <tr>
+        <th class="tabela_titulos">Name:</th>
+        <td class="tabela_linhas">Bill Gates</td>
+      </tr>
+      <tr>
+        <th class="tabela_titulos">Telephone:</th>
+        <td class="tabela_linhas">555 77 854</td>
+      </tr>
+      <tr>
+        <th class="tabela_titulos">Telephone:</th>
+        <td class="tabela_linhas"> 555 77 855</td>
+      </tr>
+    </table>
+
+    <hr>
+    <h2>Tabela mesclando colunas</h2>
+    <table class="tabela_borda">
+        <tr>
+            <th class="tabela_titulos">Name</th>
+            <th class="tabela_titulos" colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td class="tabela_linhas"> Bill Gates</td>
+            <td class="tabela_linhas">55577854</td>
+            <td class="tabela_linhas">55577855</td>
+        </tr>
+    </table>
+
+    <hr>
+    <h2>Tabela com uns estilos</h2>
+    <table id="t01" class="tabela_borda">
+        <tr>
+            <th class="tabela_titulos">Firstname</th>
+            <th class="tabela_titulos">Lastname</th> 
+            <th class="tabela_titulos">Age</th>
+        </tr>
+        <tr>
+            <td class="tabela_titulos">Jill</td>
+            <td class="tabela_titulos">Smith</td>
+            <td class="tabela_titulos">50</td>
+        </tr>
+        <tr>
+            <td class="tabela_titulos">Eve</td>
+            <td class="tabela_titulos">Jackson</td>
+            <td class="tabela_titulos">94</td>
+        </tr>
+        <tr>
+            <td class="tabela_titulos">John</td>
+            <td class="tabela_titulos">Doe</td>
+            <td class="tabela_titulos">80</td>
+        </tr>
+    </table>
+          
+
+    <hr>
+    <h2>Menu de navegação</h2>
+    <ul id="navigation">
+        <li class="link_nav"><a class="a_nav" href="#home">Home</a></li>
+        <li class="link_nav"><a class="a_nav" href="#news">News</a></li>
+        <li class="link_nav"><a class="a_nav" href="#contact">Contact</a></li>
+        <li class="link_nav"><a class="a_nav" href="#about">About</a></li>
+    </ul>
+
+    <hr>
+    <h2>Div</h2>
+    <div id="div1">
+        <h2>London</h2>
+        <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    </div> 
+
+    <hr>
+    <h2>Artigo bonito</h2>
+    <h4 id="h1_cidades">Cidades</h4>
+    <section id="sec_cidades">
+        <nav id="nav_cidades">
+          <ul id="list_cidades">
+            <li><a href="#h1_london">London</a></li>
+            <li><a href="#">Paris</a></li>
+            <li><a href="#">Tokyo</a></li>
+          </ul>
+        </nav>
+        
+        <article id="article1">
+          <h3>London</h3>
+          <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+          <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+        </article>
+        <footer id="footer1">
+            <p>Footer</p>
+        </footer>
+    </section>
+
+    <hr>
+    <h2>HTML Iframe</h2>
+    <p>An iframe is used to display a web page within a web page:</p>
+    <iframe id="iframe1" src="anotacoes.html"></iframe>
+
+
+    <hr>
+    <h2>from 1</h2>
+    <form>
+        Quantity:
+        <input type="number" name="quantity"
+         min="0" max="100" step="10" value="30">
+        <input type="submit">
+    </form>
+
+
+</body>
+</html>
